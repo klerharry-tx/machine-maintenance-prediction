@@ -1,3 +1,14 @@
-pandas
-joblib
-pyserial
+Python Libraries Used in the Project ⚙️
+.
+
+*1. pandas*
+*Description*: Python library for data analysis and manipulation.  
+*Purpose*: Load sensor CSVs, clean missing values, calculate features like RMS/kurtosis from vibration data, and prep data for ML models.
+
+*2. joblib* 
+*Description*: Library for efficient saving/loading of Python objects and parallel computing.  
+*Purpose*: Save trained failure-prediction models to `.pkl` files and load them for real-time inference. Also speeds up feature extraction using multiple CPU cores.
+
+*3. pyserial*
+*Description*: Library for serial communication with hardware ports.  
+*Purpose*: Read live RPM, vibration, temperature data from sensors/Arduino/PLC via USB. Also sends commands to stop or control the machine when AI detects a fault.
