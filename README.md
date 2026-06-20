@@ -26,7 +26,7 @@ This project predicts machine condition (Normal or Fault) using sensor data and 
 ```bash
 pip install -r requirements.txt
 
+
+---
+
 ## Contributors
-1.Harpreet Singh
-2.Krishna
-3.Ansh Walia
